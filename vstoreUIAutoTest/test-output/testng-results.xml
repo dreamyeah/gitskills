@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34573" started-at="2015-08-03T09:39:55Z" finished-at="2015-08-03T09:40:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34573" started-at="2015-08-03T09:39:55Z" finished-at="2015-08-03T09:40:30Z">
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <test-method status="PASS" signature="setEnviroment()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="setEnviroment" is-config="true" duration-ms="100" started-at="2015-08-03T17:39:55Z" finished-at="2015-08-03T17:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnviroment -->
+        <test-method status="PASS" signature="startChromePrintSceneMessage()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="startChromePrintSceneMessage" is-config="true" duration-ms="1751" started-at="2015-08-03T17:39:55Z" finished-at="2015-08-03T17:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromePrintSceneMessage -->
+        <test-method status="PASS" signature="xiupinLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="xiupinLoginTest" duration-ms="13068" started-at="2015-08-03T17:39:57Z" finished-at="2015-08-03T17:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cktest1050@163.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xiupinLoginTest -->
+        <test-method status="PASS" signature="ChangeProvince()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="ChangeProvince" duration-ms="2690" started-at="2015-08-03T17:40:10Z" finished-at="2015-08-03T17:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeProvince -->
+        <test-method status="PASS" signature="pofileIndexTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="pofileIndexTest" duration-ms="1178" started-at="2015-08-03T17:40:13Z" finished-at="2015-08-03T17:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pofileIndexTest -->
+        <test-method status="PASS" signature="myOrderTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="myOrderTest" duration-ms="1662" started-at="2015-08-03T17:40:14Z" finished-at="2015-08-03T17:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myOrderTest -->
+        <test-method status="PASS" signature="allOrder()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="allOrder" duration-ms="557" started-at="2015-08-03T17:40:16Z" finished-at="2015-08-03T17:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allOrder -->
+        <test-method status="PASS" signature="UnpaidOrder()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="UnpaidOrder" duration-ms="583" started-at="2015-08-03T17:40:16Z" finished-at="2015-08-03T17:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnpaidOrder -->
+        <test-method status="PASS" signature="ToBeShippedOrder()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="ToBeShippedOrder" duration-ms="573" started-at="2015-08-03T17:40:17Z" finished-at="2015-08-03T17:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToBeShippedOrder -->
+        <test-method status="PASS" signature="ShippedOrder()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="ShippedOrder" duration-ms="578" started-at="2015-08-03T17:40:17Z" finished-at="2015-08-03T17:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShippedOrder -->
+        <test-method status="PASS" signature="basicInfoTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="basicInfoTest" duration-ms="1682" started-at="2015-08-03T17:40:18Z" finished-at="2015-08-03T17:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicInfoTest -->
+        <test-method status="PASS" signature="addressTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="addressTest" duration-ms="1813" started-at="2015-08-03T17:40:20Z" finished-at="2015-08-03T17:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressTest -->
+        <test-method status="PASS" signature="couponTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="couponTest" duration-ms="1723" started-at="2015-08-03T17:40:21Z" finished-at="2015-08-03T17:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- couponTest -->
+        <test-method status="PASS" signature="redbagTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="redbagTest" duration-ms="578" started-at="2015-08-03T17:40:23Z" finished-at="2015-08-03T17:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redbagTest -->
+        <test-method status="PASS" signature="focusTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="focusTest" duration-ms="1699" started-at="2015-08-03T17:40:24Z" finished-at="2015-08-03T17:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- focusTest -->
+        <test-method status="PASS" signature="focusBrandTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="focusBrandTest" duration-ms="579" started-at="2015-08-03T17:40:25Z" finished-at="2015-08-03T17:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- focusBrandTest -->
+        <test-method status="PASS" signature="LogoutTest()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="LogoutTest" duration-ms="2566" started-at="2015-08-03T17:40:26Z" finished-at="2015-08-03T17:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method status="PASS" signature="driverQuit()[pri:0, instance:com.netease.vstore.test.personcenter.PersonCerterTest@296bbb56]" name="driverQuit" is-config="true" duration-ms="1250" started-at="2015-08-03T17:40:28Z" finished-at="2015-08-03T17:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

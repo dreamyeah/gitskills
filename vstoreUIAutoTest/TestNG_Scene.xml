@@ -1,0 +1,138 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="vstoreUIAtoTest Suite1"   verbose="1">
+	<parameter name="emailname" value="cktest1050@163.com"/>
+	<parameter name="password" value="qa1234"/>
+	
+	
+	<!--package name="com.netease.vstore.test.scene"  -->
+	<test name="BuyOnePrdctFromOneShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyTwoDiffPrdctFromOneShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyTwoSamePrdctFromOneShopInDetailPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage"/>
+		</classes>
+	</test>
+	
+	<test name="BuyTwoSamePrdctFromOneShopInCartPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage"/>
+		</classes>
+	</test>
+	
+	
+	<test name="BuyTwoPrdctFromTwoShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctWithSelectColorAndSize">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize"/>
+		</classes>
+	</test>
+	
+	<test name="BuyEachPrdctFromSchedule">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule"/>
+		</classes>
+	</test>
+	
+	
+	<test name="BuyPrdctAndIssueInvoice">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctByPriceSearch">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch"/>
+		</classes>
+	</test>
+	
+	<test name="DirectBuyPrdctFromDetail">
+		<classes>
+			<class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail"/>
+		</classes>
+	</test>
+	
+	<test name="DirectBuyPrdctFromSchedule">
+		<classes>
+			<class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctFromMyUnpayOrder">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctWithCouponAndPay">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctAndRepayFromPurchaseIndex">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex"/>
+		</classes>
+	</test>
+	
+	<test name="BuyUnSaleProduct">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyUnSaleProduct"/>
+		</classes>
+	</test>
+	
+	<test name="BuyLessOneAndMoreTwoPrdctDetailPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage"/>
+		</classes>
+	</test>
+	
+	<test name="BuyLessOneAndMoreTwoPrdctCartPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctUseNewAddedAddressInPurchaseIndex">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex"/>
+		</classes>
+	</test>
+	
+	<test name="ManyUserBuyPrdctFromOneShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyOnePrdctWithAlibabaPaymethod">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyOnePrdctWithAlibabaPaymethod"/>
+		</classes>
+	</test>
+	
+	
+	
+</suite>
+
+
+ 
+ 
+ 

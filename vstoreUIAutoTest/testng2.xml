@@ -1,0 +1,78 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="秀品-mainsite UI自动化回归用例集" verbose="10">
+
+	<parameter name="username" value="laotest1@163.com" />
+<!-- 	<parameter name="username" value="laotest2@163.com" /> -->
+
+	<test name="登录秀品，切换省份，进入我的秀品。">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.PersonCerterTest"></class>
+			<methods>
+　　　　　　　　<inclue name="xiupinLogin()" />
+　　　　　　　　<inclue name="ChangeProvince()" />
+　　　　　　　　<inclue name="pofileIndexTest()" />
+　　　　　　　　<exclue name="" />
+　　　　　　　　<exclue name="" />
+　　　　　　　　<exclue name="" />
+　　　　　　　　<exclue name="" />
+　　　　　　</methods>
+		</classes>
+	</test>
+
+	<test name="查看我的订单">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.PersonCerterTest"></class>
+			<methods>
+　　　　　　　　<inclue name="myOrderTest()" />
+　　　　　　</methods>
+		</classes>
+	</test>
+
+	<test name="查看所有订单">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.PersonCerterTest"></class>
+			<methods>
+　　　　　　　　<inclue name="allOrder()" />
+　　　　　　　　<exclue name="" />
+　　　　　　</methods>
+		</classes>
+	</test>
+
+	<test name="查看待付款订单">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.PersonCerterTest"></class>
+			<methods>
+　　　　　　　　<inclue name="UnpaidOrder()" />
+　　　　　　</methods>
+		</classes>
+	</test>
+	
+	<test name="登录秀品，切换省份，进入女士频道。">
+		<classes>
+			<class name="com.netease.vstore.test.channel.ChannelTest"></class>
+			<methods>
+　　　　　　　　<inclue name="xiupinLogin()" />
+　　　　　　　　<inclue name="ChangeProvince()" />
+　　　　　　　　<inclue name="womenTest()" />
+　　　　　　</methods>
+		</classes>
+	</test>
+
+	
+	<test name="进入男士频道。">
+		<classes>
+			<class name="com.netease.vstore.test.channel.ChannelTest"></class>
+			<methods>
+　　　　　　　　<inclue name="gentlemenTest()" />
+　　　　　　</methods>
+		</classes>
+	</test>
+	
+
+
+</suite>
+
+
+
+ 

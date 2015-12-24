@@ -1,0 +1,2982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vstoreUIAtoTest Suite1]">
+  <parameter name="emailname" value="cktest1050@163.com"/>
+  <parameter name="password" value="qa1234"/>
+  <test name="BuyFromGentlemenTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="PaymentMethod"/>
+          <include name="purchaseIndex"/>
+          <include name="scheduleTest"/>
+          <include name="addToCartTest"/>
+          <include name="buy"/>
+          <include name="CartTest"/>
+          <include name="setChromeProperty"/>
+          <include name="detailTest"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- BuyFromGentlemenTest(failed) -->
+  <test name="BuyFromCosmeticTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="CartTest"/>
+          <include name="setChromeProperty"/>
+          <include name="detailTest"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="addToCartTest"/>
+          <include name="PaymentMethod"/>
+          <include name="driverQuit"/>
+          <include name="buy"/>
+          <include name="purchaseIndex"/>
+          <include name="scheduleTest"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- BuyFromCosmeticTest(failed) -->
+  <test name="BuyFromKidswearTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="detailTest"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="PaymentMethod"/>
+          <include name="driverQuit"/>
+          <include name="purchaseIndex"/>
+          <include name="scheduleTest"/>
+          <include name="addToCartTest"/>
+          <include name="CartTest"/>
+          <include name="buy"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- BuyFromKidswearTest(failed) -->
+  <test name="BuyFromHouseTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="CartTest"/>
+          <include name="detailTest"/>
+          <include name="buy"/>
+          <include name="addToCartTest"/>
+          <include name="PaymentMethod"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="scheduleTest"/>
+          <include name="purchaseIndex"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+    </classes>
+  </test> <!-- BuyFromHouseTest(failed) -->
+  <test name="BuyPrdctWithSelectColorAndSize(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="SelectSizeTest"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- BuyPrdctWithSelectColorAndSize(failed) -->
+  <test name="IndexBrandTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="checkIndexBrandTest"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- IndexBrandTest(failed) -->
+  <test name="CancelUnshipedOrderTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="CancelUnshipedOrderTestTest"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- CancelUnshipedOrderTest(failed) -->
+  <test name="CancelUnpaidOrderTest(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromDetail -->
+      <class name="com.netease.vstore.test.allcategory.UnderClothesTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.UnderClothesTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromKidswearTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromKidswearTest -->
+      <class name="com.netease.vstore.test.order.CancelUnshipedOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnshipedOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage -->
+      <class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.FullNReduceMTest -->
+      <class name="com.netease.vstore.test.channel.GentlemanChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.GentlemanChannelTest -->
+      <class name="com.netease.vstore.test.allcategory.ShoesBagTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.ShoesBagTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder -->
+      <class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop -->
+      <class name="com.netease.vstore.test.channel.BuyFromWomenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromWomenTest -->
+      <class name="com.netease.vstore.test.allcategory.CosmeticTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.CosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromGentlemenTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromGentlemenTest -->
+      <class name="com.netease.vstore.test.channel.CosmeticChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.CosmeticChannelTest -->
+      <class name="com.netease.vstore.test.channel.HouseChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.HouseChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyUnSaleProduct">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyUnSaleProduct -->
+      <class name="com.netease.vstore.test.channel.KidswearChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.KidswearChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex -->
+      <class name="com.netease.vstore.test.promotionActivity.CouponTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.CouponTest -->
+      <class name="com.netease.vstore.test.channel.ChannelTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.ChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize -->
+      <class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.JewelryAssoriesTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex -->
+      <class name="com.netease.vstore.test.order.CancelOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage -->
+      <class name="com.netease.vstore.test.allcategory.GentlemenTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.GentlemenTest -->
+      <class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest -->
+      <class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.order.CancelUnpaidOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="cancelUnpaidOrderTest"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CancelUnpaidOrderTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromCosmeticTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromCosmeticTest -->
+      <class name="com.netease.vstore.test.channel.BuyFromHouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.BuyFromHouseTest -->
+      <class name="com.netease.vstore.test.allcategory.AllCategoryTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.AllCategoryTest -->
+      <class name="com.netease.vstore.test.channel.WomenChannelTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.channel.WomenChannelTest -->
+      <class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage -->
+      <class name="com.netease.vstore.test.order.DeleteOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.DeleteOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyOnePrdctFromOneShop -->
+      <class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyEachPrdctFromSchedule -->
+      <class name="com.netease.vstore.test.order.CheckOrderTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.CheckOrderTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay -->
+      <class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop -->
+      <class name="com.netease.vstore.test.allcategory.HouseTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.HouseTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice -->
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+      <class name="com.netease.vstore.test.allcategory.KidSwearTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.KidSwearTest -->
+      <class name="com.netease.vstore.test.brand.IndexBrandTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.IndexBrandTest -->
+      <class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.scene.BuyPrdctByPriceSearch -->
+      <class name="com.netease.vstore.test.brand.BrandTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.brand.BrandTest -->
+      <class name="com.netease.vstore.test.allcategory.SportOutdoorsTest">
+        <methods>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.allcategory.SportOutdoorsTest -->
+      <class name="com.netease.vstore.test.promotionActivity.PostageTest">
+        <methods>
+          <include name="setChromeProperty"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.promotionActivity.PostageTest -->
+      <class name="com.netease.vstore.test.order.SearchOrderTest">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setChromeProperty"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.order.SearchOrderTest -->
+    </classes>
+  </test> <!-- CancelUnpaidOrderTest(failed) -->
+</suite> <!-- Failed suite [vstoreUIAtoTest Suite1] -->

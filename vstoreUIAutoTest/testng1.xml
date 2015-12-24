@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="秀品-mainsite UI自动化回归用例集" verbose="10">
+
+	<parameter name="username" value="laotest1@163.com" />
+<!-- 	<parameter name="username" value="laotest2@163.com" /> -->
+
+	<test name="登陆秀品-切换省份-进入我的秀品-查看我的订单-查看所有订单-查看待付款订单-查看待发货订单-查看已发货订单-查看个人基本信息-查看收货地址-查看优惠券-查看红包-查看我的收藏-查看收藏的品牌-退出秀品">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.PersonCerterTest"></class>
+		</classes>
+	</test>
+
+		
+	<test name="登陆秀品-切换省份-进入女士频道-进入男士频道-进入美妆频道-进入母婴频道-进入家居频道-退出秀品">
+		<classes>
+			<class name="com.netease.vstore.test.channel.ChannelTest"></class>
+		</classes>
+	</test>
+
+	<test name="登陆秀品-切换省份-查看女士上衣子频道-查看女士下装子频道-查看女士配件子频道-查看女士内衣子频道-退出秀品">
+		<classes>
+			<class name="com.netease.vstore.test.channel.WomenChannelTest"></class>
+		</classes>
+	</test>
+
+	
+	<test name="登陆秀品-切换省份-进入商品schedule页面-进入商品detail页面-加入购物袋-进入购物车-进入结算页面-选择支付方式-提交订单到支付页面支付购买-退出秀品">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop"></class>
+		</classes>
+	</test>
+
+</suite>
+
+
+
+ 

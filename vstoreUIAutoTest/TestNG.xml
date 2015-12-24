@@ -1,0 +1,341 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="vstoreUIAtoTest Suite1"   verbose="1">
+	<parameter name="emailname" value="cktest1050@163.com"/>
+	<parameter name="password" value="qa1234"/>
+	
+	<!--package name="com.netease.vstore.test.personcenter"  -->
+	<test name="PersonCerterTest">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.PersonCerterTest"/>
+		</classes>
+	</test>
+	
+		<test name="AddModifyDeleteAddressTest">
+		<classes>
+			<class name="com.netease.vstore.test.personcenter.AddModifyDeleteAddressTest"/>
+		</classes>
+	</test>
+	
+	<!--package name="com.netease.vstore.test.channel"  -->
+	<test name="ChannelTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.ChannelTest"/>
+		</classes>
+	</test>
+	
+	<test name="WomenChannelTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.WomenChannelTest"/>
+		</classes>
+	</test>
+	
+	<test name="GentlemanChannelTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.GentlemanChannelTest"/>
+		</classes>
+	</test>
+	
+	<test name="CosmeticChannelTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.CosmeticChannelTest"/>
+		</classes>
+	</test>
+	
+	<test name="KidswearChannelTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.KidswearChannelTest"/>
+		</classes>
+	</test>
+	
+	<test name="HouseChannelTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.HouseChannelTest"/>
+		</classes>
+	</test>
+	
+	<test name="BuyFromWomenTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.BuyFromWomenTest"/>
+		</classes>
+	</test>
+	
+	<test name="BuyFromGentlemenTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.BuyFromGentlemenTest"/>
+		</classes>
+	</test>
+	
+	<test name="BuyFromCosmeticTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.BuyFromCosmeticTest"/>
+		</classes>
+	</test>
+	
+	<test name="BuyFromKidswearTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.BuyFromKidswearTest"/>
+		</classes>
+	</test>
+	
+	<test name="BuyFromHouseTest">
+		<classes>
+			<class name="com.netease.vstore.test.channel.BuyFromHouseTest"/>
+		</classes>
+	</test>
+	
+	<!--package name="com.netease.vstore.test.allcategory"  -->
+	<test name="AllCategoryTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.AllCategoryTest"/>
+		</classes>
+	</test>
+	
+	<test name="CosmeticTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.CosmeticTest"/>
+		</classes>
+	</test>
+	
+	<test name="GentlemenTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.GentlemenTest"/>
+		</classes>
+	</test>
+	
+	<test name="HouseTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.HouseTest"/>
+		</classes>
+	</test>
+	
+	<test name="ShoesBagTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.ShoesBagTest"/>
+		</classes>
+	</test>
+	
+	<test name="KidSwearTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.KidSwearTest"/>
+		</classes>
+	</test>
+	
+	<test name="UnderClothesTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.UnderClothesTest"/>
+		</classes>
+	</test>
+	
+	<test name="SportOutdoorsTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.SportOutdoorsTest"/>
+		</classes>
+	</test>
+	
+	<test name="JewelryAssoriesTest">
+		<classes>
+			<class name="com.netease.vstore.test.allcategory.JewelryAssoriesTest"/>
+		</classes>
+	</test>
+	
+	
+	
+	<!--package name="com.netease.vstore.test.promotionActivity"  -->
+	<test name="CouponTest">
+		<classes>
+			<class name="com.netease.vstore.test.promotionActivity.CouponTest"/>
+		</classes>
+	</test>
+	
+	<test name="FullNReduceMTest">
+		<classes>
+			<class name="com.netease.vstore.test.promotionActivity.FullNReduceMTest"/>
+		</classes>
+	</test>
+	
+	<test name="PostageTest">
+		<classes>
+			<class name="com.netease.vstore.test.promotionActivity.PostageTest"/>
+		</classes>
+	</test>
+	
+	
+	<!--package name="com.netease.vstore.test.scene"  -->
+	<test name="BuyOnePrdctFromOneShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyOnePrdctFromOneShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyTwoDiffPrdctFromOneShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoDiffPrdctFromOneShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyTwoSamePrdctFromOneShopInDetailPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInDetailPage"/>
+		</classes>
+	</test>
+	
+	<test name="BuyTwoSamePrdctFromOneShopInCartPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoSamePrdctFromOneShopInCartPage"/>
+		</classes>
+	</test>
+	
+	
+	<test name="BuyTwoPrdctFromTwoShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyTwoPrdctFromTwoShop"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctWithSelectColorAndSize">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctWithSelectColorAndSize"/>
+		</classes>
+	</test>
+	
+	<test name="BuyEachPrdctFromSchedule">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyEachPrdctFromSchedule"/>
+		</classes>
+	</test>
+	
+	
+	<test name="BuyPrdctAndIssueInvoice">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctAndIssueInvoice"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctByPriceSearch">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctByPriceSearch"/>
+		</classes>
+	</test>
+	
+	<test name="DirectBuyPrdctFromDetail">
+		<classes>
+			<class name="com.netease.vstore.test.scene.DirectBuyPrdctFromDetail"/>
+		</classes>
+	</test>
+	
+	<test name="DirectBuyPrdctFromSchedule">
+		<classes>
+			<class name="com.netease.vstore.test.scene.DirectBuyPrdctFromSchedule"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctFromMyUnpayOrder">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctFromMyUnpayOrder"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctWithCouponAndPay">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctWithCouponAndPay"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctAndRepayFromPurchaseIndex">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctAndRepayFromPurchaseIndex"/>
+		</classes>
+	</test>
+	
+	<test name="BuyUnSaleProduct">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyUnSaleProduct"/>
+		</classes>
+	</test>
+	
+	<test name="BuyLessOneAndMoreTwoPrdctDetailPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctDetailPage"/>
+		</classes>
+	</test>
+	
+	<test name="BuyLessOneAndMoreTwoPrdctCartPage">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyLessOneAndMoreTwoPrdctCartPage"/>
+		</classes>
+	</test>
+	
+	<test name="BuyPrdctUseNewAddedAddressInPurchaseIndex">
+		<classes>
+			<class name="com.netease.vstore.test.scene.BuyPrdctUseNewAddedAddressInPurchaseIndex"/>
+		</classes>
+	</test>
+	
+	<test name="ManyUserBuyPrdctFromOneShop">
+		<classes>
+			<class name="com.netease.vstore.test.scene.ManyUserBuyPrdctFromOneShop"/>
+		</classes>
+	</test>
+	
+	
+	<!--package name="com.netease.vstore.test.brand"  -->
+	<test name="BrandTest">
+		<classes>
+			<class name="com.netease.vstore.test.brand.BrandTest"/>
+		</classes>
+	</test>
+	
+	<test name="IndexBrandTest">
+		<classes>
+			<class name="com.netease.vstore.test.brand.IndexBrandTest"/>
+		</classes>
+	</test>
+	
+	
+	
+	<!--package name="com.netease.vstore.test.order"  -->
+	<test name="CheckOrderTest">
+		<classes>
+			<class name="com.netease.vstore.test.order.CheckOrderTest"/>
+		</classes>
+	</test>
+	
+	<test name="SearchOrderTest">
+		<classes>
+			<class name="com.netease.vstore.test.order.SearchOrderTest"/>
+		</classes>
+	</test>
+	
+	<test name="CancelUnshipedOrderTest">
+		<classes>
+			<class name="com.netease.vstore.test.order.CancelUnshipedOrderTest"/>
+		</classes>
+	</test>
+	
+	<test name="CancelOrderTest">
+		<classes>
+			<class name="com.netease.vstore.test.order.CancelOrderTest"/>
+		</classes>
+	</test>
+	
+	<test name="CancelUnpaidOrderTest">
+		<classes>
+			<class name="com.netease.vstore.test.order.CancelUnpaidOrderTest"/>
+		</classes>
+	</test>
+	
+
+
+	<test name="DeleteOrderTest">
+		<classes>
+			<class name="com.netease.vstore.test.order.DeleteOrderTest"/>
+		</classes>
+	</test>
+	
+</suite>
+
+
+ 
+ 
+ 

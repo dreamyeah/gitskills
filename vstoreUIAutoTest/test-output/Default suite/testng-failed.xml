@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="emailname" value="cktest1050@163.com"/>
+  <parameter name="password" value="qa1234"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.netease.vstore.test.personcenter.PersonCerterTest">
+        <methods>
+          <include name="addressTest"/>
+          <include name="ToBeShippedOrder"/>
+          <include name="xiupinLoginTest" invocation-numbers="0"/>
+          <include name="LogoutTest"/>
+          <include name="myOrderTest"/>
+          <include name="redbagTest"/>
+          <include name="ShippedOrder"/>
+          <include name="basicInfoTest"/>
+          <include name="couponTest"/>
+          <include name="allOrder"/>
+          <include name="focusBrandTest"/>
+          <include name="focusTest"/>
+          <include name="startChromePrintSceneMessage"/>
+          <include name="setEnviroment"/>
+          <include name="driverQuit"/>
+          <include name="UnpaidOrder"/>
+          <include name="pofileIndexTest"/>
+          <include name="ChangeProvince"/>
+        </methods>
+      </class> <!-- com.netease.vstore.test.personcenter.PersonCerterTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
